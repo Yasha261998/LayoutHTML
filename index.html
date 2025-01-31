@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Yakiv Protsenko</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img class="logo" src="./img/icons/logo.svg" alt="My logo">
+            <nav>
+                <ul>
+                    <li class="active">Home</li>
+                    <li><a href="./aboutme.html">About me</a></li>
+                    <li><a href="./aboutme.html">My works</a></li>
+                </ul>
+                <a class="btn btn-contacts" href="./contacts.html"><span>CONTACT</span></a>
+            </nav>
+        </div>
+    </header>
+    <section class="welcome">
+        <div class="container">
+            <h1>Yakiv Protsenko</h1>
+            <a href="./works.html" class="btn btn-info">Explore works<img src="./img/icons/arrow.svg" alt="Arrow right"></a>
+        </div>
+    </section>
+    <section class="introduction">
+        <div class="container">
+            <div class="text text-left">
+                <h2>Let’s get know about me closer</h2>
+                <p>Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters and web design.</p>
+                <a class="btn btn-info" href="./aboutme.html">Discover More About Me<img src="./img/icons/arrow.svg" alt="Arrow right"></a>
+            </div>
+            <img src="./img/profile-1.jpg" alt="My photo">
+        </div>
+    </section>
+    <section class="projects">
+        <div class="container">
+            <h2>My Projects Highlight</h2>
+            <a href="./works.html" class="btn btn-more">Explore More</a>
+            <arcticle class="item">
+                <img src="./img/project-1.jpg" alt="Project cover">
+                <div class="desc">
+                    <h4>Brand Journey Improvements</h4>
+                    <div class="property">
+                        <p><span class="sub">Client:</span>Organc</p>
+                        <p><span class="sub">Work:</span></p>
+                        <ul>
+                            <li>Branding</li>
+                            <li>Logo design</li>
+                        </ul>
+                    </div>
+                </div>
+            </arcticle>
+            <arcticle class="item">
+                <img src="./img/project-2.jpg" alt="Project cover">
+                <div class="desc">
+                    <h4>Brand Grouping</h4>
+                    <div class="property">
+                        <p><span class="sub">Client:</span>FR</p>
+                        <p><span class="sub">Work:</span></p>
+                        <ul>
+                            <li>Branding</li>
+                            <li>Logo design</li>
+                        </ul>
+                    </div>
+                </div>
+            </arcticle>
+            <arcticle class="item">
+                <img src="./img/project-3.jpg" alt="Project cover">
+                <div class="desc">
+                    <h4>NFT Glimps</h4>
+                    <div class="property">
+                        <p><span class="sub">Client:</span>Rumanda</p>
+                        <p><span class="sub">Work:</span></p>
+                        <ul>
+                            <li>NFT Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </arcticle>
+            <arcticle class="item">
+                <img src="./img/project-4.jpg" alt="Project cover">
+                <div class="desc">
+                    <h4>Brand Suggestions</h4>
+                    <div class="property">
+                        <p><span class="sub">Client:</span>T3d</p>
+                        <p><span class="sub">Work:</span></p>
+                        <ul>
+                            <li>NFT logo</li>
+                        </ul>
+                    </div>
+                </div>
+            </arcticle>
+        </div>
+    </section>
+    <section class="testimonial">
+        <div class="container">
+            <h2>Testimonial</h2>
+            <p>“Aaronn was fantastic to work with from start to finish. We were looking for a simple, stand-out logo and he delivered. I tried designing the logo myself thinking I wouldn’t need to pay the money for a professional graphic designer but I was very wrong. Working with Aaronn was worth every penny and was surprisingly affordable! I remember him saying simplicity is key to a successful logo and boy he was right. I can’t thank Aaronn enough for his effort and professionalism. I would recommend him to anyone looking for a design!”</p>
+            <h4>-Martin lee</h4>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="contacts">
+                <h2>Let’s connect</h2>
+                <p>robertgarcia@gmail.com</p>
+                <ul class="socials">
+                    <li><img src="./img/icons/facebook.svg" alt="facebook"></li>
+                    <li><img src="./img/icons/github.svg" alt="github"></li>
+                    <li><img src="./img/icons/instagram.svg" alt="instagram"></li>
+                    <li><img src="./img/icons/linkedin.svg" alt="linkedin"></li>
+                </ul>
+                <img class="logo" src="./img/icons/logo.svg" alt="My logo">
+            </div>
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" id="contact-form">
+                    <input type="hidden" name="access_key" value="4fd38678-c326-4b6e-98db-bea108e909bd">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4" required></textarea>
+                    <!-- Custom Confirmation / Success Page -->
+                    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                    <button class="btn btn-submit" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="copyright">
+                <p>@ <span id="copyright-year"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts.js"></script>
+</body>
+</html>
