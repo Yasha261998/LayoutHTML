@@ -459,6 +459,7 @@ h2::before {
 }
 
 .testimonial .container h2::after {
+  content: "";
   background-image: url("./img/icons/quotes.svg");
   background-size: contain;
   background-repeat: no-repeat; 
