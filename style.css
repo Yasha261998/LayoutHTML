@@ -528,79 +528,27 @@ h2::before {
   mask: url("./img/icons/twitter.svg") no-repeat center;
 }
 
-@media screen and (hover: hover) {
-  .footer .contacts .socials .icon:hover {
-    transform: translateY(-4px);
-    background-color: #FF9142;
-  }
-
-  /*
-  .footer .contacts .socials .facebook:hover {
-    content: url("./img/icons/facebook-active.svg");
-  }
-  
-  .footer .contacts .socials .telegram:hover {
-    content: url("./img/icons/telegram-active.svg");
-  }
-  
-  .footer .contacts .socials .linkedin:hover {
-    content: url("./img/icons/linkedin-active.svg");
-  }
-  
-  .footer .contacts .socials .github:hover {
-    content: url("./img/icons/github-active.svg");
-  }
-  
-  .footer .contacts .socials .instagram:hover {
-    content: url("./img/icons/instagram-active.svg");
-  }
-
-  .footer .contacts .socials .twitter:hover {
-    content: url("./img/icons/twitter-active.svg");
-  }
-    */
-}
-
-@media screen and (hover: none) {
-  footer .contacts .socials .icon {
-    background-color: #FF9142;
-  }
-  
-  /*
-  .footer .contacts .socials .facebook {
-    content: url("./img/icons/facebook-active.svg");
-  }
-  
-  .footer .contacts .socials .telegram {
-    content: url("./img/icons/telegram-active.svg");
-  }
-  
-  .footer .contacts .socials .linkedin {
-    content: url("./img/icons/linkedin-active.svg");
-  }
-  
-  .footer .contacts .socials .github {
-    content: url("./img/icons/github-active.svg");
-  }
-  
-  .footer .contacts .socials .instagram {
-    content: url("./img/icons/instagram-active.svg");
-  }
-  
-  .footer .contacts .socials .twitter {
-    content: url("./img/icons/twitter-active.svg");
-  }
-    */
-}
-
 .footer .contacts .socials .icon {
   display: inline-block;
-  transition: transform 0.3s ease-in-out 0.1s;
+  transition: transform 0.15s ease-in-out;
   width: 30px;
   height: 30px;
   background-color: #F0F0F0;
   mask-size: contain;
   -webkit-mask-size: contain;
+}
+
+@media screen and (hover: hover) {
+  .footer .contacts .socials .icon:hover {
+    transform: translateY(-4px);
+    background-color: #FF9142;
+  }
+}
+
+@media screen and (hover: none) {
+  .footer .contacts .socials .icon {
+    background-color: #FF9142;
+  }
 }
 
 .footer .contact-form {
