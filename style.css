@@ -501,37 +501,46 @@ h2::before {
 .footer .contacts .socials .icon {
   transition: translateY 0.3s ease-in-out 0.1s;
   width: 30px;
+  background-color: #F0F0F0;
+}
+
+.footer .contacts .socials .facebook {
+  -webkit-mask: url("./img/icons/facebook.svg") no-repeat center;
+  mask: url("./img/icons/facebook.svg") no-repeat center;
+}
+
+.footer .contacts .socials .telegram {
+  -webkit-mask: url("./img/icons/telegram.svg") no-repeat center;
+  mask: url("./img/icons/telegram.svg") no-repeat center;
+}
+
+.footer .contacts .socials .linkedin {
+  -webkit-mask: url("./img/icons/linkedin.svg") no-repeat center;
+  mask: url("./img/icons/linkedin.svg") no-repeat center;
+}
+
+.footer .contacts .socials .github {
+  -webkit-mask: url("./img/icons/github.svg") no-repeat center;
+  mask: url("./img/icons/github.svg") no-repeat center;
+}
+
+.footer .contacts .socials .instagram {
+  -webkit-mask: url("./img/icons/instagram.svg") no-repeat center;
+  mask: url("./img/icons/instagram.svg") no-repeat center;
+}
+
+.footer .contacts .socials .twitter {
+  -webkit-mask: url("./img/icons/twitter.svg") no-repeat center;
+  mask: url("./img/icons/twitter.svg") no-repeat center;
 }
 
 @media screen and (hover: hover) {
-  .footer .contacts .socials .facebook {
-    content: url("./img/icons/facebook.svg");
-  }
-  
-  .footer .contacts .socials .telegram {
-    content: url("./img/icons/telegram.svg");
-  }
-  
-  .footer .contacts .socials .linkedin {
-    content: url("./img/icons/linkedin.svg");
-  }
-  
-  .footer .contacts .socials .github {
-    content: url("./img/icons/github.svg");
-  }
-  
-  .footer .contacts .socials .instagram {
-    content: url("./img/icons/instagram.svg");
-  }
-
-  .footer .contacts .socials .twitter {
-    content: url("./img/icons/twitter.svg");
-  }
-
   .footer .contacts .socials .icon:hover {
     transform: translateY(-4px);
+    background-color: #FF9142;
   }
 
+  /*
   .footer .contacts .socials .facebook:hover {
     content: url("./img/icons/facebook-active.svg");
   }
@@ -555,9 +564,15 @@ h2::before {
   .footer .contacts .socials .twitter:hover {
     content: url("./img/icons/twitter-active.svg");
   }
+    */
 }
 
 @media screen and (hover: none) {
+  footer .contacts .socials .icon {
+    background-color: #FF9142;
+  }
+  
+  /*
   .footer .contacts .socials .facebook {
     content: url("./img/icons/facebook-active.svg");
   }
@@ -581,6 +596,7 @@ h2::before {
   .footer .contacts .socials .twitter {
     content: url("./img/icons/twitter-active.svg");
   }
+    */
 }
 
 .footer .contact-form {
