@@ -387,6 +387,12 @@ h2::before {
   width: calc(50% - 2rem);
 }
 
+@media screen and (max-width: 768px) {
+  .projects .item {
+    flex: 100%;
+  }
+}
+
 .projects .item img {
   height: 500px;
   width: 100%;
@@ -460,6 +466,12 @@ h2::before {
   width: 162px;
   height: auto;
   z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial .container h2::after {
+    width: 76px;
+  }
 }
 
 /* footer */
