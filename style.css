@@ -502,7 +502,10 @@ h2::before {
   display: inline-block;
   transition: translateY 0.3s ease-in-out 0.1s;
   width: 30px;
+  height: 30px;
   background-color: #F0F0F0;
+  mask-size: contain;
+  -webkit-mask-size: contain;
 }
 
 .footer .contacts .socials .facebook {
