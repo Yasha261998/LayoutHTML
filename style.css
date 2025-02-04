@@ -626,3 +626,7 @@ h2::before {
 .footer #result-form.visible {
   opacity: 1;
 }
+
+.footer .logo {
+  width: 10rem;
+}
