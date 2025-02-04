@@ -599,6 +599,8 @@ h2::before {
   width: 30px;
   height: 30px;
   background-color: #F0F0F0;
+  mask-size: contain;
+  -webkit-mask-size: contain;
 }
 
 .footer .contact-form {
