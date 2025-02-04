@@ -569,6 +569,11 @@ h2::before {
 }
 
 .footer #result-form {
+  opacity: 0;
   padding: 32px 0 0 4px;
-  transition: visibility 0.5s ease-in-out 0.1s;
+  transition: opacity 0.5s ease-in-out 0.1s;
+}
+
+.footer #result-form.visible {
+  opacity: 1;
 }
