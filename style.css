@@ -603,6 +603,24 @@ h2::before {
   }  
 }
 
+@media screen and (max-width: 576px) {
+  .footer .contact-form label {
+    text-align: left;
+  }
+
+  .footer .contact-form {
+    text-align: center;
+  }
+
+  .footer .contacts {
+    text-align: center;
+  }
+
+  .footer .contacts .socials {
+    justify-content: center;
+  }
+}
+
 .footer .contact-form label,
 .footer .contact-form input,
 .footer .contact-form button,
