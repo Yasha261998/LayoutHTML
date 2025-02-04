@@ -499,7 +499,7 @@ h2::before {
 }
 
 .footer .contacts .socials .icon {
-  transition: translateY 0.2s ease-in-out;
+  transition: translateY 0.3s ease-in-out 0.1s;
   width: 30px;
 }
 
