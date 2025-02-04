@@ -498,16 +498,6 @@ h2::before {
   margin-bottom: 60px;
 }
 
-.footer .contacts .socials .icon {
-  display: inline-block;
-  transition: translateY 0.3s ease-in-out 0.1s;
-  width: 30px;
-  height: 30px;
-  background-color: #F0F0F0;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-}
-
 .footer .contacts .socials .facebook {
   -webkit-mask: url("./img/icons/facebook.svg") no-repeat center;
   mask: url("./img/icons/facebook.svg") no-repeat center;
@@ -601,6 +591,14 @@ h2::before {
     content: url("./img/icons/twitter-active.svg");
   }
     */
+}
+
+.footer .contacts .socials .icon {
+  display: inline-block;
+  transition: translateY 0.3s ease-in-out 0.1s;
+  width: 30px;
+  height: 30px;
+  background-color: #F0F0F0;
 }
 
 .footer .contact-form {
