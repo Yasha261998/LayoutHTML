@@ -310,6 +310,29 @@ h2::before {
     background-color: #F4F7FA;
     transition: all 0.3s ease;
   }
+
+  .header .burger::before {
+    top: 0;
+  }
+
+  .header .burger::after {
+    bottom: 0;
+  }
+
+  .header .burger.active span {
+    transform: scale(0);
+  }
+
+  .header .burger.active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+  }
+
+  .header .burger.active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, -50%);
+  }
+
 }
 
 /* welcome */
