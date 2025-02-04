@@ -467,13 +467,15 @@ h2::before {
   top: -40px;
   right: 0;
   width: 162px;
-  height: auto;
+  height: 100%;
   z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
   .testimonial .container h2::after {
+    top: -5px;
     width: 80px;
+    height: 100%;
   }
 }
 
