@@ -290,15 +290,15 @@ h2::before {
     height: 18px;
   }
 
-  .burger span {
+  .header .burger span {
     height: 2px;
     width: 100%;
     transform: scale(1);
     background-color: #F4F7FA;
   }
 
-  .burger::before,
-  .burger::after {
+  .header .burger::before,
+  .header .burger::after {
     content: "";
     position: absolute;
     width: 100%;
