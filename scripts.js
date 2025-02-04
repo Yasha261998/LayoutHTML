@@ -43,6 +43,7 @@ formContact.addEventListener("submit", function (e) {
         // console.log(response);
         resultForm.innerHTML = json.message;
       }
+      resultForm.classList.toggle("visible");
     })
     .catch((error) => {
       // console.log(error);
@@ -54,7 +55,7 @@ formContact.addEventListener("submit", function (e) {
 
       formContact.reset();
       setTimeout(() => {
-        resultForm.style.display = "none";
+        resultForm.classList.toggle("visible");
       }, 3000);
     });
 });
