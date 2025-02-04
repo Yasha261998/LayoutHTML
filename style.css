@@ -524,6 +524,10 @@ h2::before {
     content: url("./img/icons/instagram.svg");
   }
 
+  .footer .contacts .socials .twitter {
+    content: url("./img/icons/twitter.svg");
+  }
+
   .footer .contacts .socials .icon:hover {
     transform: translateY(-4px);
   }
@@ -547,6 +551,10 @@ h2::before {
   .footer .contacts .socials .instagram:hover {
     content: url("./img/icons/instagram-active.svg");
   }
+
+  .footer .contacts .socials .twitter:hover {
+    content: url("./img/icons/twitter-active.svg");
+  }
 }
 
 @media screen and (hover: none) {
@@ -568,6 +576,10 @@ h2::before {
   
   .footer .contacts .socials .instagram {
     content: url("./img/icons/instagram-active.svg");
+  }
+  
+  .footer .contacts .socials .twitter {
+    content: url("./img/icons/twitter-active.svg");
   }
 }
 
