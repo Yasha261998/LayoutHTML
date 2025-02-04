@@ -568,10 +568,10 @@ h2::before {
 }
 
 .footer #result-form {
-  min-height: 80px;
+  min-height: 72px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out 0.1s;
-  padding: 32px 0 0 4px;
+  padding: 30px 0 0 4px;
 }
 
 .footer #result-form.visible {
