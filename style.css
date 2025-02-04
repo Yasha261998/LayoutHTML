@@ -472,7 +472,7 @@ h2::before {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 54px;
-  padding-bottom: 32px;
+  padding-bottom: 20px;
 }
 
 .footer .contacts {
