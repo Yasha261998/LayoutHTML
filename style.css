@@ -280,6 +280,10 @@ h2::before {
 }
 
 @media screen and (max-width: 768px) {
+  .header .container {
+    max-width: 95%;
+  }
+
   .header .burger {
     display: flex;
     position: relative;
@@ -309,6 +313,10 @@ h2::before {
 }
 
 /* welcome */
+.welcome {
+  overflow: hidden;
+}
+
 .welcome .container {
   height: 90dvh;
   display: flex;
@@ -636,28 +644,6 @@ h2::before {
   }  
 }
 
-@media screen and (max-width: 576px) {
-  .footer .contact-form label {
-    text-align: left;
-  }
-
-  .footer .contact-form {
-    text-align: center;
-  }
-
-  .footer .contacts {
-    text-align: center;
-  }
-
-  .footer .contacts .socials {
-    justify-content: center;
-  }
-
-  .footer .contact-form button {
-    display: inline-block;
-  }
-}
-
 .footer .contact-form label,
 .footer .contact-form input,
 .footer .contact-form button,
@@ -710,6 +696,28 @@ h2::before {
   text-align: center;
   transition: all 0.2s ease-in-out;
   position: relative;
+}
+
+@media screen and (max-width: 576px) {
+  .footer .contact-form label {
+    text-align: left;
+  }
+
+  .footer .contact-form {
+    text-align: center;
+  }
+
+  .footer .contacts {
+    text-align: center;
+  }
+
+  .footer .contacts .socials {
+    justify-content: center;
+  }
+
+  .footer .contact-form button {
+    display: inline-block;
+  }
 }
 
 .footer .copyright {
