@@ -619,6 +619,10 @@ h2::before {
   .footer .contacts .socials {
     justify-content: center;
   }
+
+  .footer .contact-form button {
+    display: inline-block;
+  }
 }
 
 .footer .contact-form label,
