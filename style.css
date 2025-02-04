@@ -582,7 +582,7 @@ h2::before {
   flex: 1;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .footer .contact-form,
   .footer .contacts {
     flex: 100%;
@@ -665,7 +665,7 @@ h2::before {
   width: 10rem;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .footer .logo {
     display: none;
   }
