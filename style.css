@@ -153,7 +153,7 @@ h2::before {
 
 @media screen and (max-width: 576px) {
   .container {
-    max-width: 100%;
+    max-width: 95%;
   }
 }
 
@@ -287,12 +287,13 @@ h2::before {
   right: -120px;
 }
 
+
+/* introduction */
 .introduction h2::before {
   bottom: -180px;
   left: -60px;
 }
 
-/* introduction */
 .introduction {
   padding-bottom: 200px;
 }
@@ -317,6 +318,10 @@ h2::before {
   position: relative;
 }
 
+.introduction .text {
+  width: 60%;
+}
+
 @media screen and (max-width: 992px) {
   .introduction .container-img {
     height: 400px;
@@ -325,9 +330,19 @@ h2::before {
 }
 
 @media screen and (max-width: 768px) {
+  .introduction .container {
+    flex-direction: column;
+  }
+
   .introduction .container-img {
-    height: 320px;
-    width: 50%;
+    height: 500px;
+    width: 100%;
+    order: 1;
+  }
+
+  .introduction .text {
+    width: 100%;
+    order: 2;
   }
 }
 
@@ -338,10 +353,6 @@ h2::before {
   display: block;
   top: 0;
   left: 0;
-}
-
-.introduction .text {
-  width: 60%;
 }
 
 .introduction p {
@@ -571,6 +582,13 @@ h2::before {
   flex: 1;
 }
 
+@media screen and (max-width: 576px) {
+  .footer .contact-form,
+  .footer .contacts {
+    flex: 100%;
+  }  
+}
+
 .footer .contact-form label,
 .footer .contact-form input,
 .footer .contact-form button,
@@ -645,4 +663,10 @@ h2::before {
 
 .footer .logo {
   width: 10rem;
+}
+
+@media screen and (max-width: 576px) {
+  .footer .logo {
+    display: none;
+  }
 }
