@@ -336,6 +336,12 @@ h2::before {
   right: -120px;
 }
 
+@media screen and (max-width: 576px) {
+  .welcome h1::before {
+    right: -20px;
+  }
+}
+
 
 /* introduction */
 .introduction h2::before {
@@ -392,6 +398,7 @@ h2::before {
   .introduction .text {
     width: 100%;
     order: 2;
+    text-align: center;
   }
 }
 
