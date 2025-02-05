@@ -704,7 +704,7 @@ h2::before {
     flex: 100%;
   }
 
-  .testimonial .container h2 {
+  .testimonial .container h2::before {
     content: none;
   }
 }
