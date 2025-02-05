@@ -367,13 +367,8 @@ h2::before {
 }
 
 /* welcome */
-.welcome,
-.introduction,
-.projects,
-.testimonial,
-.footer {
+.welcome {
   overflow-x: hidden;
-  overflow-y: auto;
 }
 
 .welcome .container {
