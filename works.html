@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Yakiv Protsenko</title>
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./works.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="./index.html"><img class="logo" src="./img/icons/logo.png" alt="My logo"></a>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./aboutme.html">About me</a></li>
+          <li class="active">My works</li>
+        </ul>
+        <a class="btn btn-contacts" href="#contacts-block"><span>CONTACT</span></a>
+      </nav>
+      <div class="burger">
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <section class="title-section">
+    <div class="container">
+        <h1>My works</h1>
+        <p class="subtitle">Showcase About Works</p>
+    </div>
+  </section>
+  <section class="projects">
+    <div class="container">
+      <div class="items">
+        <arcticle class="item">
+          <a href="./works.html">
+            <img src="./img/project-1.jpg" alt="Project cover">
+            <h4>Brand Journey Improvements</h4>
+          </a>
+          <div class="desc">
+            <div class="property">
+              <div class="grid-header">Client:</div>
+              <div class="cell">
+                <span>Organc</span>
+              </div>
+              <div class="grid-header">Work:</div>
+              <div class="cell">
+                <span>Branding</span>
+                <span>Logo design</span>
+              </div>
+            </div>
+          </div>
+        </arcticle>
+        <arcticle class="item">
+          <a href="./works.html">
+            <img src="./img/project-2.jpg" alt="Project cover">
+            <h4>Brand Grouping</h4>
+          </a>
+          <div class="desc">
+            <div class="property">
+              <div class="grid-header">Client:</div>
+              <div class="cell">
+                <span>FR</span>
+              </div>
+              <div class="grid-header">Work:</div>
+              <div class="cell">
+                <span>Branding</span>
+                <span>Logo design</span>
+              </div>
+            </div>
+          </div>
+        </arcticle>
+        <arcticle class="item">
+          <a href="./works.html">
+            <img src="./img/project-3.jpg" alt="Project cover">
+            <h4>NFT Glimps</h4>
+          </a>
+          <div class="desc">
+            <div class="property">
+              <div class="grid-header">Client:</div>
+              <div class="cell">
+                <span>Rumanda</span>
+              </div>
+              <div class="grid-header">Work:</div>
+              <div class="cell">
+                <span>NFT Design</span>
+              </div>
+            </div>
+          </div>
+        </arcticle>
+        <arcticle class="item">
+          <a href="./works.html">
+            <img src="./img/project-4.jpg" alt="Project cover">
+            <h4>Brand Suggestions</h4>
+          </a>
+          <div class="desc">
+            <div class="property">
+              <div class="grid-header">Client:</div>
+              <div class="cell">
+                <span>T3d</span>
+              </div>
+              <div class="grid-header">Work:</div>
+              <div class="cell">
+                <span>NFT logo</span>
+              </div>
+            </div>
+          </div>
+        </arcticle>
+      </div>
+    </div>
+  </section>
+  <footer class="footer" id="contacts-block">
+    <div class="container">
+      <div class="contacts">
+        <h2>Let’s connect</h2>
+        <a href="mailto:yakiv.tech@gmail.com"><p class="email">yakiv.tech@gmail.com</a></p>
+        <ul class="socials">
+          <li><a class="icon facebook" href="https://facebook.com"></a></li>
+          <li><a class="icon github" href="https://github.com"></a></li>
+          <li><a class="icon instagram" href="https://instagram.com"></a></li>
+          <li><a class="icon linkedin" href="https://linkedin.com"></a></li>
+          <li><a class="icon telegram" href="https://telegram.com"></a></li>
+        </ul>
+        <img class="logo" src="./img/icons/logo.png" alt="My logo">
+      </div>
+      <div class="contact-form">
+        <form action="https://api.web3forms.com/submit" id="contact-form" method="POST">
+          <input type="hidden" name="access_key" value="4fd38678-c326-4b6e-98db-bea108e909bd">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="4" required></textarea>
+          <!-- Custom Confirmation / Success Page -->
+          <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+          <button class="btn btn-submit" type="submit" id="btn-form">Submit</button>
+        </form>
+        <div id="result-form"></div>
+      </div>
+      <div class="copyright">
+        <p>@ <span id="copyright-year"></span></p>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
