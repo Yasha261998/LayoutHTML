@@ -5,7 +5,7 @@ document.getElementById("copyright-year").textContent =
 
 // header event scroll
 window.addEventListener("scroll", function () {
-  let header = this.document.querySelector("header");
+  let header = this.document.querySelector(".header");
   if (this.window.scrollY > 100) {
     header.classList.add("scrolled");
   } else {
