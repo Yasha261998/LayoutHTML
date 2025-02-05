@@ -367,8 +367,12 @@ h2::before {
 }
 
 /* welcome */
-.welcome {
-  overflow: hidden;
+.welcome,
+.introduction,
+.projects,
+.testimonial,
+.footer {
+  overflow-y: hidden;
 }
 
 .welcome .container {
@@ -704,7 +708,7 @@ h2::before {
     flex: 100%;
   }
 
-  .testimonial .container h2::before {
+  .footer .contacts h2::before {
     content: none;
   }
 }
