@@ -59,3 +59,9 @@ formContact.addEventListener("submit", function (e) {
       }, 3000);
     });
 });
+
+/* burger */
+document.querySelector(".header .burger").addEventListener("click", function() {
+  this.classList.toggle("active");
+  document.querySelector("nav").classList.toggle(".open");
+});

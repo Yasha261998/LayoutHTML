@@ -231,8 +231,6 @@ h2::before {
 
 .header nav {
   display: inline-flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
   gap: 4em;
@@ -284,13 +282,37 @@ h2::before {
     max-width: 95%;
   }
 
+  .header nav.open {
+    display: inline-flex;
+    justify-content: center;
+    align-items: start;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 50;
+    overflow-y: auto;
+    padding: 50px 40px;
+    background-color: #A8A8A8;
+    animation: burgerAnimation 0.3s;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+  }
+
+  @keyframes burgerAnimation {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+
   .header .burger {
     display: flex;
     position: relative;
     z-index: 50;
     align-items: center;
     justify-content: flex-end;
-    width: 30px;
+    width: 26px;
     height: 18px;
   }
 
@@ -341,7 +363,7 @@ h2::before {
 }
 
 .welcome .container {
-  height: 90dvh;
+  height: 90vh;
   display: flex;
   text-align: center;
   flex-direction: column;
