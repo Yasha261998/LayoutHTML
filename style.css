@@ -95,7 +95,7 @@ body {
   color: #F4F7FA;
 }
 
-body.no-scrool {
+body.no-scroll {
   overflow: hidden;
 }
 
