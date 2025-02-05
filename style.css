@@ -95,6 +95,10 @@ body {
   color: #F4F7FA;
 }
 
+body.no-scrool {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -280,6 +284,10 @@ h2::before {
 @media screen and (max-width: 768px) {
   .header .container {
     max-width: 95%;
+  }
+
+  .header nav {
+    display: none;
   }
 
   .header nav.open {
