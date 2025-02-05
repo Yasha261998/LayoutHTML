@@ -314,6 +314,7 @@ h2::before {
     justify-content: flex-end;
     width: 26px;
     height: 18px;
+    cursor: pointer;
   }
 
   .header .burger span {
