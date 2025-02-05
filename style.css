@@ -213,6 +213,7 @@ h2::before {
   width: 100%;
   z-index: 1000;
   transition: background 0.3s ease-in-out, backdrop-filter 0.1s ease-in-out;
+  background: rgba(0, 0, 0, 0.01);
 }
 
 .header.scrolled {
