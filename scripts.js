@@ -64,5 +64,5 @@ formContact.addEventListener("submit", function (e) {
 document.querySelector(".header .burger").addEventListener("click", function() {
   this.classList.toggle("active");
   document.querySelector("nav").classList.toggle("open");
-  document.getElementsByTagName("body").classList.toggle("no-scroll");
+  document.querySelector("body").classList.toggle("no-scroll");
 });
