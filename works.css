@@ -1,5 +1,11 @@
 .title-section {
+    padding-top: 280px;
+    margin-bottom: 100px;
     overflow-x: hidden;
+}
+
+.title-section .container {
+    border-bottom: 1px solid #949494;
 }
 
 .title-section .subtitle {
@@ -13,8 +19,6 @@
 
 /* projects */
   .projects {
-    border-top: 1px solid #949494;
-    padding-top: 100px;
     margin-bottom: 10rem;
   }
   
