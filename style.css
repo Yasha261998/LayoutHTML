@@ -702,7 +702,11 @@ h2::before {
   .footer .contact-form,
   .footer .contacts {
     flex: 100%;
-  }  
+  }
+
+  .testimonial .container h2 {
+    content: none;
+  }
 }
 
 .footer .contact-form label,
