@@ -68,6 +68,7 @@ function openCloseMenu() {
 }
 
 document.querySelector(".header").addEventListener("click", function(event) {
+  console.log(event.target);
   if ((event.target.matches(".burger")) || (event.target.matches(".open .btn"))) {
     openCloseMenu();
     console.log("test");
