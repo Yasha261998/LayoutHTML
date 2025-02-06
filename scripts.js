@@ -68,9 +68,17 @@ function openCloseMenu() {
 }
 
 document.querySelector(".header").addEventListener("click", function(event) {
-  console.log(event.target);
-  if ((event.target.matches(".burger")) || (event.target.matches(".open .btn"))) {
+  if (event.target.matches(".burger")) {
     openCloseMenu();
-    console.log("test");
+  }
+  
+  if (event.target.matches(".open .btn")) {
+    event.preventDefault();
+    const targetId = this.getAttribute("href").substring(1);
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+      openCloseMenu();
+    }
   }
 });
