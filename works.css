@@ -1,8 +1,11 @@
 .title-section {
-    padding-top: 160px;
+    padding-top: 180px;
     padding-bottom: 90px;
-    margin-bottom: 100px;
     overflow-x: hidden;
+}
+
+.title-section .container {
+    padding-bottom: 100px;
     border-bottom: 1px solid #949494;
 }
 
@@ -19,7 +22,10 @@
   .title-section {
     padding-top: 80px;
     padding-bottom: 50px;
-    margin-bottom: 50px;
+  }
+
+  .title-section .container {
+    padding-bottom: 50px;
   }
 }
 
