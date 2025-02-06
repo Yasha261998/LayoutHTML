@@ -74,6 +74,8 @@ burger.addEventListener("click", function() {
   openCloseMenu();
 });
 
-contact_btn.addEventListener("click", function() {
-  openCloseMenu();
-});
+if (contact_btn) {
+  contact_btn.addEventListener("click", function() {
+    openCloseMenu();
+  });
+}
