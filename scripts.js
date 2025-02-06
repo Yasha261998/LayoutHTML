@@ -60,13 +60,14 @@ formContact.addEventListener("submit", function (e) {
     });
 });
 
+/* burger menu */
+
 function openCloseMenu() {
   this.classList.toggle("active");
   document.querySelector("nav").classList.toggle("open");
   document.querySelector("body").classList.toggle("no-scroll");
 }
 
-/* burger */
 document.querySelector(".header .burger").addEventListener("click", function() {
   openCloseMenu();
 });
