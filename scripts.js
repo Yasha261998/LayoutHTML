@@ -68,7 +68,7 @@ function openCloseMenu() {
 }
 
 document.querySelector(".header").addEventListener("click", function() {
-  if (event.target.matches(".burger")) || (event.target.matches(".open .btn")) {
+  if ((event.target.matches(".burger")) || (event.target.matches(".open .btn"))) {
     openCloseMenu();
   }
 });
