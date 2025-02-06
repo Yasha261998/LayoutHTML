@@ -60,9 +60,17 @@ formContact.addEventListener("submit", function (e) {
     });
 });
 
-/* burger */
-document.querySelector(".header .burger").addEventListener("click", function() {
+function openCloseMenu() {
   this.classList.toggle("active");
   document.querySelector("nav").classList.toggle("open");
   document.querySelector("body").classList.toggle("no-scroll");
+}
+
+/* burger */
+document.querySelector(".header .burger").addEventListener("click", function() {
+  openCloseMenu();
+});
+
+document.querySelector(".header nav li").addEventListener("click", function() {
+  openCloseMenu();
 });
