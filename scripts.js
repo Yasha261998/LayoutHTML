@@ -72,6 +72,6 @@ document.querySelector(".header .burger").addEventListener("click", function() {
   openCloseMenu();
 });
 
-document.querySelector(".header nav .btn").addEventListener("click", function() {
+document.querySelector(".header .open .btn").addEventListener("click", function() {
   openCloseMenu();
 });
