@@ -164,6 +164,7 @@
 .projects .item h4 {
   text-align: left;
   margin-bottom: 32px;
+  max-width: calc(100% - 44px);
   position: relative;
 }
 
