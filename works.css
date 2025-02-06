@@ -49,6 +49,10 @@
   }
   
   @media screen and (max-width: 768px) {
+    .projects {
+      margin-bottom: 5rem;
+    }
+
     .projects .item {
       flex: 100%;
     }
