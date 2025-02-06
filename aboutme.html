@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Yakiv Protsenko</title>
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./aboutme.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="./index.html"><img class="logo" src="./img/icons/logo.png" alt="My logo"></a>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li class="active"><a href="./aboutme.html">About me</a></li>
+          <li><a href="./works.html">My works</a></li>
+        </ul>
+        <a class="btn-contacts" href="#contacts-block">CONTACT</a>
+      </nav>
+      <div class="burger">
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="title-section">
+      <div class="container">
+        <h1>About Me</h1>
+        <p class="subtitle">Showcase About Works</p>
+      </div>
+    </section>
+    <section class="short-desc">
+      <div class="container">
+        <h2>My mission is to make design easier</h2>
+        <div class="text text-right">
+          <p>
+            Create custom Designs with AARONN that converts more visitors than any website. With lots of unique design,
+            you can easily select a logo without hassle. Create custom landing logos with AARONN that converts more
+            visitors than any website. With lots of revisions, you can easily build a logo without porbolem.
+          </p>
+        </div>
+        <a class="btn btn-download" href="./resume.pdf" download>DOWNLOAD RESUME</a>
+        <img src="./img/profile-2.jpg" alt="Profile photo">
+      </div>
+    </section>
+    <section class="capabilities">
+      <div class="container">
+        <h2>My Capabilities</h2>
+        <div class="text text-right">
+          <p>I am always looking to add more skills.Morbi egestas neque eu blandit fermentum. Nulla ac lobortis ligula.
+            Pellentesque ac ex at purus faucibus tristique ut et dolor.</p>
+          <ul class="items">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python 3</li>
+            <li>Django</li>
+            <li>Git</li>
+            <li>Flask</li>
+            <li>SQLite</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>Docker</li>
+            <li>C++</li>
+            <li>Telegram bots</li>
+            <li>Selenium</li>
+            <li>BeautifulSoup</li>
+            <li>FastAPI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="experience">
+      <div class="container">
+        <h2></h2>
+        <div class="jobs">
+          <div class="job">
+            <div class="title-sect">
+              <h4>Freelance Python Developer</h4>
+              <span>Nov 2020 — Present</span>
+            </div>
+            <div class="desc-exp">
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+          </div>
+          <div class="job">
+            <div class="title-sect">
+              <h4>Front-End Intern</h4>
+              <span>Sep 2023 — Nov 2023</span>
+            </div>
+            <p class="employer">Roos Tech</p>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="contacts-block">
+    <div class="container">
+      <div class="contacts">
+        <h2>Let’s connect</h2>
+        <a href="mailto:yakiv.tech@gmail.com">
+          <p class="email">yakiv.tech@gmail.com
+        </a></p>
+        <ul class="socials">
+          <li><a class="icon facebook" href="https://facebook.com"></a></li>
+          <li><a class="icon github" href="https://github.com"></a></li>
+          <li><a class="icon instagram" href="https://instagram.com"></a></li>
+          <li><a class="icon linkedin" href="https://linkedin.com"></a></li>
+          <li><a class="icon telegram" href="https://telegram.com"></a></li>
+        </ul>
+        <img class="logo" src="./img/icons/logo.png" alt="My logo">
+      </div>
+      <div class="contact-form">
+        <form action="https://api.web3forms.com/submit" id="contact-form" method="POST">
+          <input type="hidden" name="access_key" value="4fd38678-c326-4b6e-98db-bea108e909bd">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="4" required></textarea>
+          <!-- Custom Confirmation / Success Page -->
+          <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+          <button class="btn btn-submit" type="submit" id="btn-form">Submit</button>
+        </form>
+        <div id="result-form"></div>
+      </div>
+      <div class="copyright">
+        <p>@ <span id="copyright-year"></span></p>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts.js"></script>
+</body>
+
+</html>

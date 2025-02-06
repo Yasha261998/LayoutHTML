@@ -4,7 +4,7 @@
 }
 
 .welcome .container {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -144,11 +144,11 @@
   .projects {
     margin-bottom: 5rem;
   }
-  
+
   .projects .item {
     flex: 100%;
   }
-  
+
   .projects h2::before {
     width: 17rem;
   }
@@ -224,7 +224,7 @@
   content: "";
   background-image: url("./img/icons/quotes.svg");
   background-size: contain;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   position: absolute;
   top: -40px;
   right: 0;

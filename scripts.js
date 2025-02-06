@@ -67,11 +67,11 @@ function openCloseMenu() {
   document.querySelector("body").classList.toggle("no-scroll");
 }
 
-document.querySelector(".header").addEventListener("click", function(event) {
+document.querySelector(".header").addEventListener("click", function (event) {
   if (event.target.matches(".burger")) {
     openCloseMenu();
   }
-  
+
   if (event.target.matches(".open .btn")) {
     const href = this.querySelector(".open .btn").getAttribute("href");
     if (href.startsWith("#")) {
