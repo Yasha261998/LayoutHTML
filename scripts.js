@@ -67,7 +67,7 @@ function openCloseMenu() {
   document.querySelector("body").classList.toggle("no-scroll");
 }
 
-document.querySelector(".header").addEventListener("click", function() {
+document.querySelector(".header").addEventListener("click", function(event) {
   if ((event.target.matches(".burger")) || (event.target.matches(".open .btn"))) {
     openCloseMenu();
   }
