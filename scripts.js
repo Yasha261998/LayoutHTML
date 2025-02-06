@@ -65,7 +65,7 @@ const contact_btn = document.querySelector(".header .open .btn");
 const burger = document.querySelector(".header .burger");
 
 function openCloseMenu() {
-  document.querySelector(".header .burger").classList.toggle("active");
+  burger.classList.toggle("active");
   document.querySelector("nav").classList.toggle("open");
   document.querySelector("body").classList.toggle("no-scroll");
 }
