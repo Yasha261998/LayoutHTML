@@ -1,5 +1,6 @@
 .title-section {
     padding-top: 180px;
+    padding-bottom: 90px;
     margin-bottom: 100px;
     overflow-x: hidden;
 }
@@ -9,7 +10,6 @@
 }
 
 .title-section .subtitle {
-    margin-bottom: 90px;
     color: #949494;
 }
 
@@ -18,7 +18,15 @@
     left: -20px;
 }
 
-/* projects */
+@media screen and (max-width: 768px) {
+  .title-section {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+
   .projects {
     margin-bottom: 10rem;
   }
