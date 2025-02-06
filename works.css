@@ -1,11 +1,11 @@
 .title-section {
     padding-top: 180px;
-    padding-bottom: 90px;
+    padding-bottom: 60px;
     overflow-x: hidden;
 }
 
 .title-section .container {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     border-bottom: 1px solid #949494;
 }
 
@@ -21,11 +21,11 @@
 @media screen and (max-width: 768px) {
   .title-section {
     padding-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   .title-section .container {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 }
 
