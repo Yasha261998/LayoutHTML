@@ -70,5 +70,6 @@ function openCloseMenu() {
 document.querySelector(".header").addEventListener("click", function(event) {
   if ((event.target.matches(".burger")) || (event.target.matches(".open .btn"))) {
     openCloseMenu();
+    console.log("test");
   }
 });
