@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* RESET */
+html {
+  scroll-behavior: smooth;
+}
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -19,7 +23,6 @@ body {
 line-height: 1.5;*/
   /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
-  scroll-behavior: smooth;
 }
 
 /* 5. Improve media defaults */
