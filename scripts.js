@@ -73,12 +73,12 @@ document.querySelector(".header").addEventListener("click", function(event) {
   }
   
   if (event.target.matches(".open .btn")) {
-    event.preventDefault();
-    const targetId = this.getAttribute("href").substring(1);
-    const targetElement = document.getElementById(targetId);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: "smooth" });
-      openCloseMenu();
+    const href = this.getAttribute("href");
+    if (href.startsWith("#")) {
+      event.preventDefault(); // Предотвращаем стандартное поведение
+      history.pushState(null, null, href); // Обновляем URL вручную
+      openCloseMenu(); // Закрываем меню
+      console.log("test");
     }
   }
 });
