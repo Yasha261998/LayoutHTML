@@ -61,6 +61,8 @@ formContact.addEventListener("submit", function (e) {
 });
 
 /* burger menu */
+const contact_btn = document.querySelector(".header .open .btn");
+const burger = document.querySelector(".header .burger");
 
 function openCloseMenu() {
   document.querySelector(".header .burger").classList.toggle("active");
@@ -68,10 +70,10 @@ function openCloseMenu() {
   document.querySelector("body").classList.toggle("no-scroll");
 }
 
-document.querySelector(".header .burger").addEventListener("click", function() {
+burger.addEventListener("click", function() {
   openCloseMenu();
 });
 
-document.querySelector(".header .open .btn").addEventListener("click", function() {
+contact_btn.addEventListener("click", function() {
   openCloseMenu();
 });
