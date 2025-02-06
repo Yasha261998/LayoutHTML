@@ -61,21 +61,14 @@ formContact.addEventListener("submit", function (e) {
 });
 
 /* burger menu */
-const contact_btn = document.querySelector(".header .open .btn");
-const burger = document.querySelector(".header .burger");
-
 function openCloseMenu() {
-  burger.classList.toggle("active");
+  document.querySelector(".header .burger").classList.toggle("active");
   document.querySelector("nav").classList.toggle("open");
   document.querySelector("body").classList.toggle("no-scroll");
 }
 
-burger.addEventListener("click", function() {
-  openCloseMenu();
-});
-
-if (contact_btn) {
-  contact_btn.addEventListener("click", function() {
+document.querySelector(".header").addEventListener("click", function() {
+  if (event.target.matches(".burger")) || (event.target.matches(".open .btn")) {
     openCloseMenu();
-  });
-}
+  }
+});
