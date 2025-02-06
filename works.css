@@ -78,7 +78,7 @@
     width: 42px;
     height: 1px;
     top: 16px;
-    right: 0;
+    right: -42px;
     border-top: 1px solid #FF9142;
     z-index: 1;
     position: absolute;
