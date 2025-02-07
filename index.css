@@ -146,10 +146,6 @@
   .projects .item {
     flex: 100%;
   }
-
-  .projects h2::before {
-    width: 17rem;
-  }
 }
 
 .projects .item img {

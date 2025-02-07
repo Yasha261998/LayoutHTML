@@ -157,6 +157,10 @@ h2::before {
   .container {
     max-width: 540px;
   }
+
+  .projects h2::before {
+    width: 17rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
