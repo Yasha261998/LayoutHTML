@@ -66,8 +66,7 @@
 .capabilities .container {
     display: flex;
     justify-content: space-evenly;
-    column-gap: 36px;
-    row-gap: 60px;
+    gap: 36px;
     padding-bottom: 80px;
     border-bottom: 1px solid #606060;
 }
@@ -106,4 +105,34 @@
     .capabilities .container .text {
         flex: 100%;
     }
+}
+
+/* experience */
+.experience {
+    margin-bottom: 80px;
+}
+
+.experience .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experience .container h2 {
+    flex: 1 1 48%;
+}
+
+.experience .container .jobs {
+    flex: 1 1 52%;
+}
+
+.experience .container .jobs .job .title-sect {
+    
+}
+
+.experience .container .jobs .job .desc-exp {
+
+}
+
+.experience .container .jobs .job .employer {
+
 }
