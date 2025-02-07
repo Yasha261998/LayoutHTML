@@ -174,16 +174,6 @@ h2::before {
 }
 
 .btn {
-  border-radius: 32.5px;
-  padding: 15px 35px;
-}
-
-.btn img {
-  display: inline;
-  width: 18px;
-}
-
-.btn {
   display: inline-flex;
   gap: 10px;
   align-items: center;
@@ -197,6 +187,12 @@ h2::before {
   text-transform: uppercase;
   padding: 20px 26px 20px 35px;
   transition: all 0.2s ease-in-out;
+  border-radius: 32.5px;
+}
+
+.btn img {
+  display: inline;
+  width: 18px;
 }
 
 @media screen and (hover: hover) {

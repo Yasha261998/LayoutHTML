@@ -6,10 +6,16 @@
     display: flex;
     justify-content: space-evenly;
     column-gap: 36px;
+    margin-bottom: 80px;
 }
 
-.short-desc .text {
+.short-desc .subdesc .text {
+    flex: 1 1 52%;
     margin-bottom: 100px;
+}
+
+.short-desc .subdesc h2 {
+    flex: 1 1 48%;
 }
 
 .short-desc .text p {
@@ -17,8 +23,30 @@
     font-size: 16px;
     line-height: 155%;
     letter-spacing: 1px;
+    margin-bottom: 36px;
 }
 
 .short-desc .container .profile-img {
     border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .short-desc .subdesc {
+        flex-direction: column;
+    }
+
+    .short-desc .subdesc .text {
+        flex: 100%;
+
+    }
+
+    .short-desc .subdesc h2 {
+        flex: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .short-desc .short-desc {
+        text-align: center;
+    }
 }
