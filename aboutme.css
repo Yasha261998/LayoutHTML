@@ -39,14 +39,9 @@
     }
 
     .short-desc .subdesc {
-        order: 2;
         flex-direction: column;
         text-align: center;
         margin-bottom: 0;
-    }
-
-    .short-desc .profile-img {
-        order: 1;
     }
 
     .short-desc .subdesc .text {
@@ -65,7 +60,7 @@
 
 /* capabilities */
 .capabilities {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .capabilities .container {
@@ -98,6 +93,11 @@
 }
 
 @media screen and (max-width: 768px) {
+    .capabilities .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .capabilities .container h2 {
         flex: 100%;
         margin-bottom: 26px;

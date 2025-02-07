@@ -414,6 +414,7 @@ h2::before {
   .title-section {
     padding-top: 80px;
     padding-bottom: 50px;
+    text-align: center;
   }
 
   .title-section .container {
