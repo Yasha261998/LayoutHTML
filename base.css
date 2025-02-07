@@ -191,7 +191,7 @@ h2::before {
   text-transform: uppercase;
   padding: 20px 26px 20px 35px;
   transition: all 0.2s ease-in-out;
-  border-radius: 32.5px;
+  border-radius: 32px;
 }
 
 .btn img {

@@ -1,3 +1,5 @@
+/* short-desc */
+
 .short-desc {
     margin-bottom: 100px;
 }
@@ -40,6 +42,7 @@
         order: 2;
         flex-direction: column;
         text-align: center;
+        margin-bottom: 0;
     }
 
     .short-desc .profile-img {
@@ -58,4 +61,33 @@
     .short-desc .text p {
         margin-bottom: 76px;
     }
+}
+
+/* capabilities */
+.capabilities .container {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 36px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #606060;
+}
+
+.capabilities .container h2 {
+    flex: 1 1 48%;
+}
+
+.capabilities .container .text {
+    flex: 1 1 52%;
+}
+
+.capabilities .container .items {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.capabilities .container .items li {
+    border: 1px solid #484848;
+    border-radius: 32px;
 }
