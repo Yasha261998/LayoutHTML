@@ -447,6 +447,10 @@ h2::before {
   margin-bottom: 40px;
 }
 
+.footer .contacts h2::before {
+  content: none;
+}
+
 .footer .contacts .email {
   display: inline-block;
   font-family: 'Syne', sans-serif;
@@ -532,10 +536,6 @@ h2::before {
 
   .footer .contacts .socials {
     margin-bottom: 0;
-  }
-
-  .footer .contacts h2::before {
-    content: none;
   }
 }
 
