@@ -353,7 +353,6 @@ h2::before {
     width: 100%;
     transform: scale(1);
     background-color: #F4F7FA;
-    pointer-events: none;
   }
 
   .header .burger::before,
@@ -364,7 +363,7 @@ h2::before {
     height: 2px;
     background-color: #F4F7FA;
     transition: all 0.3s ease;
-    pointer-events: none;
+    pointer-events: auto;
   }
 
   .header .burger::before {
