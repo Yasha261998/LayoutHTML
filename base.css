@@ -374,6 +374,10 @@ h2::before {
     bottom: 0;
   }
 
+  .header .burger.active {
+    height: 26px;
+  }
+
   .header .burger.active span {
     transform: scale(0);
   }
