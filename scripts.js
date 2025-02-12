@@ -70,6 +70,7 @@ function openCloseMenu() {
 document.querySelector(".header").addEventListener("click", function (event) {
   if (event.target.closest(".burger")) {
     openCloseMenu();
+    return;
   }
 
   if (event.target.matches(".open .btn")) {
