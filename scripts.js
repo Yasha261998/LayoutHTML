@@ -80,7 +80,7 @@ document.querySelector(".header").addEventListener("click", function (event) {
       location.hash = ""; // reset hash
       location.hash = targetId; // set again
       history.pushState(null, null, href); // update
-      openCloseMenu(); // close menu
     }
+    openCloseMenu(); // close menu
   }
 });
