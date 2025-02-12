@@ -70,7 +70,6 @@ function openCloseMenu() {
 document.querySelector(".header").addEventListener("click", function (event) {
   if (event.target.closest(".burger")) {
     openCloseMenu();
-    return;
   }
 
   if (event.target.matches(".open .btn")) {
@@ -82,6 +81,6 @@ document.querySelector(".header").addEventListener("click", function (event) {
       location.hash = targetId; // set again
       history.pushState(null, null, href); // update
       openCloseMenu(); // close menu
-      }
+    }
   }
 });
