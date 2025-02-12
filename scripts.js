@@ -67,21 +67,18 @@ function openCloseMenu() {
   document.querySelector("body").classList.toggle("no-scroll");
 }
 
-document.querySelector(".header").addEventListener("click", function (event) {
-  if (event.target.closest(".burger")) {
-    openCloseMenu();
-    return;
-  }
+document.querySelector(".header .burger").addEventListener("click", function (event) {
+  openCloseMenu();
+});
 
-  if (event.target.matches(".open .btn")) {
-    const href = this.querySelector(".open .btn").getAttribute("href");
-    if (href.startsWith("#")) {
-      event.preventDefault(); // Prevent standard behavior
-      const targetId = href.substring(1);
-      location.hash = ""; // reset hash
-      location.hash = targetId; // set again
-      history.pushState(null, null, href); // update
-      openCloseMenu(); // close menu
+document.querySelector(".header nav.open .btn").addEventListener("click", function (event) {
+  const href = this.getAttribute("href");
+  if (href.startsWith("#")) {
+    event.preventDefault(); // Prevent standard behavior
+    const targetId = href.substring(1);
+    location.hash = ""; // reset hash
+    location.hash = targetId; // set again
+    history.pushState(null, null, href); // update
+    openCloseMenu(); // close menu
     }
-  }
 });
