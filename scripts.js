@@ -72,8 +72,9 @@ document.querySelector(".header").addEventListener("click", function (event) {
     openCloseMenu();
   }
 
-  if (event.target.matches(".open .btn")) {
-    const href = this.querySelector(".open .btn").getAttribute("href");
+  /* processing click to btn-contacts */
+  if (event.target.matches(".open .btn-contacts")) {
+    const href = this.querySelector(".open .btn-contacts").getAttribute("href");
     if (href.startsWith("#")) {
       event.preventDefault(); // Prevent standard behavior
       const targetId = href.substring(1);
